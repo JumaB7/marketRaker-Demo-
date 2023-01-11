@@ -1,0 +1,67 @@
+
+html{
+  background-color:white;
+}
+
+#side_bar{
+  color: rgb(67, 151, 117);
+}
+
+.navbar {
+  width: 100%;
+  background-color: rgb(255, 255, 255);
+  overflow: auto;
+
+}
+
+.navbar a {
+  float: left;
+  padding: 12px;
+  color: rgb(37, 49, 68);
+  text-decoration: none;
+  // font-size: 17px;
+  // width: 33.33%;
+  text-align: center;
+}
+
+.navbar a:hover {
+  background-color: rgb(194, 191, 191);
+}
+
+.navbar a.active {
+  background-color: rgb(221, 220, 220);
+}
+
+a, li{
+  color: rgb(37, 49, 68);
+  text-align: center;
+}
+
+.nav-pills .nav-link {
+  background-color: rgb(255, 255, 255);
+  color:rgb(37, 49, 68);
+  text-emphasis: bold;
+  -webkit-border-radius: 0;
+  -moz-border-radius: 0;
+  border-radius: 0;
+}
+
+.nav-pills:active .nav-link:active{
+  border-bottom: 2px solid rgb(72, 191, 132);
+}
+.nav-link:hover .nav-pills:hover {
+  background-color: rgb(255, 255, 255);
+
+}
+
+body{
+  position: relative;
+  padding-bottom: 50px;
+}
+
+footer {
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  background-color: white;
+}

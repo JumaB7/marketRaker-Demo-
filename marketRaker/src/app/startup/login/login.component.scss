@@ -1,0 +1,60 @@
+
+button{
+  color: rgb(51, 72, 86);
+  background-color: white;
+  border-color: white;
+  justify-content: center;
+  align-items: center;
+}
+
+.btn-primary:hover, .btn-primary:focus, .btn-primary:active, .btn-primary.active, .open>.dropdown-toggle.btn-primary {
+  background-color:rgb(118, 118, 118);
+}
+
+
+html, body{
+  background-color:rgb(51, 72, 86);
+  color: white;
+  height: 100%;
+  width: 100%;
+  padding-left: 10px;
+  padding-right: 10px;
+  padding-bottom: 10px;
+
+}
+
+nav{
+  background-color:rgb(51, 72, 86);
+  padding-top: 200px;
+  padding-bottom: 100px;
+  padding-left: 10px;
+  padding-right: 10px;
+  font-size: large;
+}
+
+h1{
+  color: white;
+}
+
+a{
+  color:rgb(255, 255, 255);
+  border-bottom: white;
+  font-size: large;
+
+}
+
+li{
+  color:rgb(51, 72, 86);
+  border-bottom: white;
+  $nav-link-color: white;
+
+}
+.nav-pills .nav-link.active {
+  background-color: white;
+  color:rgb(51, 72, 86);
+
+}
+
+.nav-link:hover {color: white;}
+
+
